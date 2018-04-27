@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/*
+ * for contact form
+ */
+
+body {
+  /*padding-top: 60px;*/
+}
+.button_next {
+
+background:url(../../images/next.png) no-repeat top left !important;
+width:141px !important;
+	height:72px !important;
+	display: inline !important;
+	cursor:pointer !important;
+	border:none !important;
+}
+.radio_settings {
+    vertical-align: middle;
+}
+.label {
+    color: black;
+}
+#formwrapper {
+    margin-top: 20px;
+}
+#formwrapper input, #formwrapper textarea, #captcha_box input {
+    margin: 5px;
+}

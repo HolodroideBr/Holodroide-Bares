@@ -1,0 +1,61 @@
+﻿
+
+p , li, legend , form{
+	font-size: 18px;
+	font-family: 'ColaborateLightRegular', Arial, sans-serif;
+	line-height: 125%;
+	margin-bottom: 10px;
+}
+
+
+input {
+	font-size: 20px;
+}
+
+form#order .label, form#contact .label {
+	display: block;
+	clear: left;
+	float: left;
+	width: 175px;
+	text-align: right;
+	padding: 7px 15px 0 0;
+	text-transform: uppercase;	
+	font-weight: bold;
+}
+
+
+
+form#order select, form#contact select {
+	display: inline-block;
+	margin-top: 8px;	
+}
+
+form#order input[type=radio], form#contact input[type=radio], form#contact input[type=checkbox] {
+   display: inline-block;
+   margin-top: 10px;	
+}
+
+form .indent, #submit {
+	margin-left: 215px;	
+}
+#console label {
+	float: left;
+	width: 100px;
+}
+.clearLeft {
+	clear: left;
+}
+.imgRight {
+	float: right;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+.imgLeft {
+	float: left;
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+
+#contact .indent label.error {
+  margin-left: 0;
+}

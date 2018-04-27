@@ -1,0 +1,25 @@
+
+TEXTO UPLOADER
+
+https://www.holodroide.com/sistema_bares/uploaders/texto/uploader_texto.php
+
+
+-----------------------------------------
+
+
+FOTO UPLOADER
+
+https://www.holodroide.com/sistema_bares/uploaders/foto/uploader_foto.php
+
+
+-----------------------------------------
+
+
+VIDEO UPLOADER
+
+https://www.holodroide.com/sistema_bares/uploaders/video/index.php
+
+
+-----------------------------------------
+
+

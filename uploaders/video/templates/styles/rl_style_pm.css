@@ -1,0 +1,369 @@
+﻿
+body {
+  background:#fff;
+  padding:0;
+  margin:0;
+  font:12px verdana,sans-serif;
+  color:#110404;
+}
+
+div, h1, h2, h3, h4, p, form, label, input, textarea, img, span, ul {
+  margin:0;
+  padding:0;
+}
+
+img {
+  border:0;
+}
+
+a {
+  color:#4e616c;
+}
+
+a:hover {
+  color:#4e616c;
+  text-decoration:none;
+}
+
+
+#wrapper {
+  /*width: 960px;*/
+  margin:0 auto;
+}
+
+
+#topBar a {
+  color:#fff;
+}
+
+#topBar a:hover {
+  text-decoration: none;
+}
+
+#header {
+  padding:15px 0 6px 0;
+  text-align: left;
+  background:#252525;
+  height:100px;
+  
+
+  
+}
+
+#menu {
+  text-align: left;
+  height:40px;
+  background:#252525;
+  
+}
+
+#menu a {
+  display: block;
+  background:#1B1B1B;
+  width:125px;
+  height:25px;
+  padding:13px 0 10px 0;
+  text-align:center;
+  color:#fff;
+  text-decoration:none;
+  font-size:11px;
+  font-weight: bold;
+  border: 3px #252525 solid
+}
+
+#menu .search {
+  background:url(../../images/search_bg.gif) no-repeat;
+  width:460px;
+  color:#fff;
+  height:34px;
+}
+
+#menu .box {
+  padding:3px;
+  font:12px verdana,sans-serif;
+  border:1px solid #c5c089;
+  width:75%;
+  background:#fffbcb;
+  color:#b91418;
+}
+
+#menu .button {
+  font:12px verdana,sans-serif;
+  border:1px solid #fff;
+  background:#4e626c url(../../images/search_button.gif) repeat-x;
+  padding:2px 0 2px 0;
+  color:#fff;
+  width:60px;
+}
+
+#menu .search form {
+  padding:7px 0 5px 10px;
+}
+
+#menu a.first {
+  background:#404040;
+}
+
+#menu a:hover {
+  background:#404040;
+  text-decoration: underline;
+  color:#fff;
+}
+
+#menu .bullets {
+  color:#e0ecb5;
+  font-size:10px;
+}
+
+
+#searchBar {
+  background:url(../../images/search_bar.gif) no-repeat center center;
+  height:50px; 
+  margin-top:10px;
+}
+
+#contentWrapper {
+  background:#ffffff;
+  padding:10px;
+  /*max-width:270px;*/
+}
+
+#bodyArea {
+  padding:0 0 0 5px;
+  margin-top:10px;
+}
+
+#bodyArea .uRoutine a {
+  display: block;
+  padding-left:20px;
+}
+
+#features ul {
+  background:#fff;
+  margin:2px 0 20px 0;
+  border:1px solid #000000;
+  padding:10px;
+  line-height:17px;
+  list-style-image: url('../../images/salesCheck.png')
+}
+#features li {
+  
+  margin:0px 0 0 15px;
+  line-height:17px;
+}
+
+
+#bodyArea .uRoutine {
+  display: block;
+  background:url(../../images/upgrade.png) no-repeat left center;
+  margin-bottom:10px;
+  width:160px;
+}
+
+#bodyArea .headLeft {
+  padding:10px;
+  background:#404040 url(../../images/grad.gif) repeat-x;
+  border:1px solid #404040;
+  display:block;
+  font-weight: bold;
+  text-align:left;
+  color:#fff;
+  font-size: 15px
+}
+
+
+#imageBar {
+}
+
+#imageBar img {
+  padding:5px;
+  border:1px dashed #c5c089;
+  background:#f1ebb7;
+}
+
+#footer {
+	text-align: center;
+	color:#fffbcb;
+}
+
+#footer p.links {
+	color:#fffbcb;
+	background:#a48c57;
+  padding:5px;
+  font:10px verdana,sans-serif;
+}
+
+#footer p.links a {
+  color:red;
+}
+
+#footer p.copyright {
+	color:red;
+	background:#F2F2F2;
+  padding:10px;
+  font:10px verdana,sans-serif;
+}
+
+#footer p.copyright a {
+  color:red;
+}
+
+#footer p.copyright a:hover,#footer p.links a:hover {
+  text-decoration: none;
+}
+.remote_button {
+	font-size: 15px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #C11418;
+	display:block;
+	margin-bottom:5px;
+}
+.radio_buttons{
+
+	background-color:#fff;
+	color:#C51435;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	padding:2px;
+}
+.blue_background{
+
+	background-color:#2b81c1;
+	color:#FFFFFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	padding:2px;
+}
+
+.border_right{
+border-right:1px solid #2b81c1;
+}
+#send_bt {
+
+background:url(../../images/button.png) no-repeat top left;
+width:130px;
+	height:32px;
+	display: inline;
+	cursor:pointer;
+	border:none;
+        margin: 0px 8px;
+    
+}
+.format_button{
+	 position: relative; 
+	top: 4px;
+	
+	}
+
+.info_table{
+	color:#C11418;
+	width:300px;
+	margin-bottom:10px;
+}
+.video_infor
+{
+	background:#404040;
+	color:#ffffff;
+	width:300px;
+	margin:10px;
+	height:30px;
+	padding-top:8px;
+    text-align:center;
+	font-weight:bold
+	
+	
+	}
+legend{
+    
+  
+   font-weight:bold
+  	}
+.progress_container{
+	background-color:#fff;
+}  	
+/* The progressbar for upload and download, including the outer div holder */
+.progressouter
+{
+	border:1px solid #D7D7D7; width:300px; height:20px;background-color:#fff;
+}
+
+.progressdown
+{
+	background:#D2D2D2;
+	width:0%;
+	height:18px;
+	margin: 1px;
+}
+
+.progressup
+{
+	background-color:#FFFFFF;
+	width:0%;
+	height:8px;
+	margin: 1px;
+}
+.send_bt {
+
+	background:url(../../images/button.png) no-repeat top left;
+	width:130px;
+	height:32px;
+	display: inline;
+	cursor:pointer;
+	border:none;
+	
+}
+#send_next {
+
+background:url(../../images/next.png) no-repeat top left;
+width:141px;
+	height:72px;
+	display: inline;
+	cursor:pointer;
+	border:none;
+    
+}
+
+.urlposition{
+	position: relative; 
+	
+	margin-left:0px;
+	color:#C51435;
+	font-weight:bold;
+	font-size:13px;
+	
+	
+
+	}
+#link{
+	
+	width:450px;
+	float:left;
+	margin-left:35px
+}
+
+#header_p{
+    color:#ffffff;
+    display:inline;
+    position:absolute;
+    margin:5px 5px 5px 30px;
+    	
+}
+.leftcol{float:left;clear:left;width:50%;padding-left:0px;}
+.rightcol{float:left;clear:right;width:50%;padding-left:0px;}
+.middle {
+	color:#F30000;
+	font-size:13px;
+	font-weight:bold;
+}
+.under_nav{
+	height:20px;
+	background-color:#404040
+}
+.size_limit{
+	color:red;
+}
+.google_ads {
+    text-align: center;
+    margin: 10px;
+    
+}

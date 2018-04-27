@@ -1,0 +1,8 @@
+#add this to your httpd.conf 
+#LoadModule headers_module modules/mod_headers.so
+# to force file download
+RewriteEngine on
+Options FollowSymLinks
+<FilesMatch "\.(?i:ogg|flv|mp4|wmv|mp3|avi|webm)$">
+  Header set Content-Disposition attachment
+</FilesMatch>

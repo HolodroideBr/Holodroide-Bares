@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Base structure */
+html, body {
+    width: 100%!important;
+    height: 100%!important;
+}
+
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #313B45;
+    background-color: #F7F7F7;
+	cursor: hand!important; 
+}
+
+/* Social Buttons */
+.azm-social {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+	-moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
+	-o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+.azm-social:hover, .azm-social:focus, .azm-social:active { outline: 0; opacity: 0.8; color: #fff; }
+
+.azm-btn {
+	height: 48px;
+	margin: 8px;
+	padding: 13px 17px;
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 300;
+	-moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+}
+.azm-btn i { padding-right: 27px; font-size: 21px; line-height: 21px; vertical-align: top; }
+
+.azm-facebook { background: #4862a3; }
+.azm-google-plus { background: #dd4b39; }
+
