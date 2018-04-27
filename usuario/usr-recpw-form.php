@@ -58,6 +58,8 @@ if ($acao == ''){
                         EMAIL
                         <br>
                         <input type="text" name="email" id="email" style="width:250px;">
+  <input type="text" name="email" id="email3" style="width:250px;">
+   <input type="text" name="email" id="email4" style="width:250px;">
              
                         <br><br>
              
